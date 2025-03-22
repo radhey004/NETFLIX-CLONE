@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("bg1.jpg");
+    height: 98vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 98vh;
+    width: 100%;
+    opacity: 0.80;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    color: red;
+    width: 160px;
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100% - 62px);
+    display: flex;
+    text-align: center;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px
+}
+
+.hero> :nth-child(1) {
+    font-size: 55px;
+    font-weight: 900;
+    font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    justify-content: center;
+}
+
+.hero> :nth-child(2) {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.hero> :nth-child(3) {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.btn-f {
+    background-color: rgb(23, 23, 23, 0.2);
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 80px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+.btn-t {
+
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 200px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: red;
+    margin-left: 5px;
+}
+
+.btn-s {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 80px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: red;
+    margin-left: 10px;
+}
+
+.main input {
+    background-color: rgb(23, 23, 23, 0.2);
+    color: black;
+    border-radius: 4px;
+    height: 50px;
+    width: 400px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid gray;
+}
